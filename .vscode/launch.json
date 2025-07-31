@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-LaptopshopApplication<vn.hoidanit-laptopshop>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "vn.hoidanit.laptopshop.LaptopshopApplication",
+      "projectName": "vn.hoidanit-laptopshop",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
