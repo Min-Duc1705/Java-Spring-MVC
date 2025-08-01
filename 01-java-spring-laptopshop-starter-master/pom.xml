@@ -68,6 +68,34 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <!-- ✅ Cấu hình web: chứa các thành phần để xây dựng ứng dụng web, bao gồm Tomcat, JSP, EL,
+        etc. -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
+        <!-- ✅ Cấu hình JSP: chứa các thành phần để xây dựng ứng dụng web sử dụng JSP -->
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+        </dependency>
+
+        <!-- ✅ Cấu hình JSTL: chứa các thành phần để xây dựng ứng dụng web sử dụng JSTL -->
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+        </dependency>
+
+        <!-- ✅ Cấu hình JPA: chứa các thành phần để xây dựng ứng dụng web sử dụng JPA -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+
+
     </dependencies>
 
 
